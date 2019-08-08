@@ -14,6 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    
+    @IBAction func buttonTapped(_ sender: Any) {
+        APIManager().getRandomJoke()
+    }
+    
 
 
 }
