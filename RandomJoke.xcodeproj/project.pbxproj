@@ -14,7 +14,11 @@
 		7403C8C222FC00F5002EBAE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7403C8C022FC00F5002EBAE5 /* LaunchScreen.storyboard */; };
 		7403C8CD22FC00F5002EBAE5 /* RandomJokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C8CC22FC00F5002EBAE5 /* RandomJokeTests.swift */; };
 		7403C8D822FC00F5002EBAE5 /* RandomJokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C8D722FC00F5002EBAE5 /* RandomJokeUITests.swift */; };
+<<<<<<< HEAD
 		7403C8E622FC06C9002EBAE5 /* gitTestA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C8E522FC06C9002EBAE5 /* gitTestA.swift */; };
+=======
+		7403C8E822FC12DE002EBAE5 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C8E722FC12DE002EBAE5 /* APIManager.swift */; };
+>>>>>>> master
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +52,11 @@
 		7403C8D322FC00F5002EBAE5 /* RandomJokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomJokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7403C8D722FC00F5002EBAE5 /* RandomJokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomJokeUITests.swift; sourceTree = "<group>"; };
 		7403C8D922FC00F5002EBAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		7403C8E522FC06C9002EBAE5 /* gitTestA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitTestA.swift; sourceTree = "<group>"; };
+=======
+		7403C8E722FC12DE002EBAE5 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+>>>>>>> master
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +113,11 @@
 				7403C8BE22FC00F5002EBAE5 /* Assets.xcassets */,
 				7403C8C022FC00F5002EBAE5 /* LaunchScreen.storyboard */,
 				7403C8C322FC00F5002EBAE5 /* Info.plist */,
+<<<<<<< HEAD
 				7403C8E522FC06C9002EBAE5 /* gitTestA.swift */,
+=======
+				7403C8E722FC12DE002EBAE5 /* APIManager.swift */,
+>>>>>>> master
 			);
 			path = RandomJoke;
 			sourceTree = "<group>";
@@ -259,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				7403C8E622FC06C9002EBAE5 /* gitTestA.swift in Sources */,
+=======
+				7403C8E822FC12DE002EBAE5 /* APIManager.swift in Sources */,
+>>>>>>> master
 				7403C8BA22FC00F4002EBAE5 /* ViewController.swift in Sources */,
 				7403C8B822FC00F4002EBAE5 /* AppDelegate.swift in Sources */,
 			);
