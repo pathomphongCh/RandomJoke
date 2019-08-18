@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		7403C8CD22FC00F5002EBAE5 /* RandomJokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C8CC22FC00F5002EBAE5 /* RandomJokeTests.swift */; };
 		7403C8D822FC00F5002EBAE5 /* RandomJokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C8D722FC00F5002EBAE5 /* RandomJokeUITests.swift */; };
 		7403C8E822FC12DE002EBAE5 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C8E722FC12DE002EBAE5 /* APIManager.swift */; };
+		74D9FE6A22FD1B4000FE2E2F /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D9FE6922FD1B4000FE2E2F /* Joke.swift */; };
 		85AF0338207D08F73E241CAE /* Pods_RandomJoke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACC74AEA8E85AFCE51C6E31 /* Pods_RandomJoke.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		7403C8D722FC00F5002EBAE5 /* RandomJokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomJokeUITests.swift; sourceTree = "<group>"; };
 		7403C8D922FC00F5002EBAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7403C8E722FC12DE002EBAE5 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		74D9FE6922FD1B4000FE2E2F /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 		97F715B049BF89A733FD3059 /* Pods-RandomJoke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomJoke.release.xcconfig"; path = "Target Support Files/Pods-RandomJoke/Pods-RandomJoke.release.xcconfig"; sourceTree = "<group>"; };
 		B2EAE9F9DB03872DB1575A48 /* Pods_RandomJokeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomJokeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACC74AEA8E85AFCE51C6E31 /* Pods_RandomJoke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomJoke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				7403C8B722FC00F4002EBAE5 /* AppDelegate.swift */,
+				74D9FE6922FD1B4000FE2E2F /* Joke.swift */,
 				7403C8B922FC00F4002EBAE5 /* ViewController.swift */,
 				7403C8BB22FC00F4002EBAE5 /* Main.storyboard */,
 				7403C8BE22FC00F5002EBAE5 /* Assets.xcassets */,
@@ -165,7 +168,6 @@
 				4499DA67C59E27F2C94F363E /* Pods-RandomJokeUITests.debug.xcconfig */,
 				F3E9E5D7110CFA1860AD42DD /* Pods-RandomJokeUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -392,6 +394,7 @@
 			files = (
 				7403C8E822FC12DE002EBAE5 /* APIManager.swift in Sources */,
 				7403C8BA22FC00F4002EBAE5 /* ViewController.swift in Sources */,
+				74D9FE6A22FD1B4000FE2E2F /* Joke.swift in Sources */,
 				7403C8B822FC00F4002EBAE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

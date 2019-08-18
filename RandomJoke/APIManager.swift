@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import Alamofire
 class APIManager {
     func getRandomJoke() {
         guard let url = URL(string: "https://matchilling-chuck-norris-jokes-v1.p.rapidapi.com/jokes/random")else{
@@ -28,6 +28,16 @@ class APIManager {
             }
         }
         task.resume()
+    }
+
+    func getRandomJokeAlamofire() {
+        let headers: HTTPHeaders = [
+            "x-rapidapi-key": "d7cd140d6emsh9d6e2be744bfd51p13f344jsn471a4d8ce9d5",
+            "Accept": "application/json"
+        ]
+        Alamofire.request("https://matchilling-chuck-norris-jokes-v1.p.rapidapi.com/jokes/random", headers: headers).responseJSON { (data) in
+            print(data)
+        }
     }
 }
 
